@@ -1,86 +1,174 @@
-[
-  {
-    "id": "1",
-    "title": "History Quiz",
-    "questions": [
-      { "text": "পানিপথের প্রথম যুদ্ধ কোন সালে হয়েছিল?", "options": { "a": "1526", "b": "1556", "c": "1761", "d": "1530" }, "answer": "a" },
-      { "text": "বাংলার নবাব সিরাজউদ্দৌলার পতন কোন যুদ্ধে হয়েছিল?", "options": { "a": "পলাশীর যুদ্ধ", "b": "বক্সারের যুদ্ধ", "c": "হালদার যুদ্ধ", "d": "দিল্লির যুদ্ধ" }, "answer": "a" },
-      { "text": "তাজমহল কে নির্মাণ করেছিলেন?", "options": { "a": "আকবর", "b": "শাহজাহান", "c": "বাবর", "d": "আউরঙ্গজেব" }, "answer": "b" },
-      { "text": "মোগল সম্রাট আলাউদ্দিন খিলজি কোন শতকে রাজত্ব করেছিলেন?", "options": { "a": "12 শতক", "b": "13 শতক", "c": "14 শতক", "d": "15 শতক" }, "answer": "c" },
-      { "text": "মারাঠা সম্রাট শিভাজি কোন দেশে প্রতিষ্ঠা করেছিলেন?", "options": { "a": "পশ্চিম ভারত", "b": "উত্তর ভারত", "c": "দক্ষিণ ভারত", "d": "পূর্ব ভারত" }, "answer": "a" },
-      { "text": "ফ্রান্সের বিপ্লব কোন সালে শুরু হয়েছিল?", "options": { "a": "1789", "b": "1776", "c": "1804", "d": "1812" }, "answer": "a" },
-      { "text": "রোমান সাম্রাজ্যের রাজধানী কোন শহর ছিল?", "options": { "a": "রোম", "b": "অ্যাথেন্স", "c": "প্যারিস", "d": "লন্ডন" }, "answer": "a" },
-      { "text": "মহাত্মা গান্ধীর জন্ম কোথায়?", "options": { "a": "পোরবন্দর", "b": "আমদাবাদ", "c": "বোম্বে", "d": "কলকাতা" }, "answer": "a" }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Science Quiz",
-    "questions": [
-      { "text": "মানবদেহের সবচেয়ে ছোট হাড় কোনটি?", "options": { "a": "Stapes", "b": "Femur", "c": "Ulna", "d": "Radius" }, "answer": "a" },
-      { "text": "DNA এর পূর্ণরূপ কী?", "options": { "a": "Deoxyribonucleic Acid", "b": "Deoxyribogenetic Acid", "c": "Dynamic Nuclear Acid", "d": "None" }, "answer": "a" },
-      { "text": "মানব রক্তে কোন ধাতব উপাদান থাকে?", "options": { "a": "Copper", "b": "Zinc", "c": "Iron", "d": "Calcium" }, "answer": "c" },
-      { "text": "আলো সবচেয়ে বেশি কোন মাধ্যমে গতি কমায়?", "options": { "a": "বায়ু", "b": "জল", "c": "কাঁচ", "d": "শূন্যস্থান" }, "answer": "c" },
-      { "text": "মানবদেহে কত জোড়া স্নায়ু আছে?", "options": { "a": "31", "b": "32", "c": "33", "d": "30" }, "answer": "a" },
-      { "text": "পৃথিবীর সবচেয়ে বড় প্রাণী কোনটি?", "options": { "a": "Blue Whale", "b": "Elephant", "c": "Shark", "d": "Giraffe" }, "answer": "a" },
-      { "text": "পৃথিবীর সবচেয়ে ছোট গ্রহ কোনটি?", "options": { "a": "Mercury", "b": "Venus", "c": "Mars", "d": "Pluto" }, "answer": "a" },
-      { "text": "পানি কোন তাপমাত্রায় বাষ্পীভূত হয়?", "options": { "a": "100°C", "b": "90°C", "c": "80°C", "d": "70°C" }, "answer": "a" }
-    ]
-  },
-  {
-    "id": "3",
-    "title": "Math Quiz",
-    "questions": [
-      { "text": "√256 = ?", "options": { "a": "14", "b": "15", "c": "16", "d": "18" }, "answer": "c" },
-      { "text": "7³ এর মান কত?", "options": { "a": "343", "b": "246", "c": "512", "d": "729" }, "answer": "a" },
-      { "text": "ফিবোনাচ্চি ধারা শুরু হয় কোন দুটি সংখ্যা দিয়ে?", "options": { "a": "0,1", "b": "1,2", "c": "2,3", "d": "1,3" }, "answer": "a" },
-      { "text": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 20cm এবং প্রস্থ 10cm, এর ক্ষেত্রফল কত?", "options": { "a": "200", "b": "210", "c": "220", "d": "250" }, "answer": "a" },
-      { "text": "π এর মান প্রায় কত?", "options": { "a": "3.12", "b": "3.14", "c": "3.16", "d": "3.18" }, "answer": "b" },
-      { "text": "2 + 2 × 2 = ?", "options": { "a": "6", "b": "8", "c": "4", "d": "10" }, "answer": "a" },
-      { "text": "একটি ঘনকের ভলিউম = 27 cm³, ঘনকের বাহু কত?", "options": { "a": "3", "b": "9", "c": "6", "d": "12" }, "answer": "a" },
-      { "text": "একটি বৃত্তের ব্যাসার্ধ 7cm হলে এর পরিধি কত?", "options": { "a": "44 cm", "b": "42 cm", "c": "45 cm", "d": "40 cm" }, "answer": "b" }
-    ]
-  },
-  {
-    "id": "4",
-    "title": "Islamic Quiz",
-    "questions": [
-      { "text": "কোরআনে সর্বাধিকবার উল্লেখিত নবীর নাম কোনটি?", "options": { "a": "ইবরাহিম (আঃ)", "b": "মুসা (আঃ)", "c": "ইসা (আঃ)", "d": "নুহ (আঃ)" }, "answer": "b" },
-      { "text": "রাসুল (সা:) হিজরতের সময় কোন গুহায় আশ্রয় নিয়েছিলেন?", "options": { "a": "হেরা", "b": "সুর", "c": "সাফা", "d": "মিনা" }, "answer": "b" },
-      { "text": "ইসলামে প্রথম শহীদ নারী কে?", "options": { "a": "আয়েশা (রা:)", "b": "সুমাইয়া (রা:)", "c": "ফাতিমা (রা:)", "d": "হাফসা (রা:)" }, "answer": "b" },
-      { "text": "কোন নবী ৯৫০ বছর দাওয়াত দিয়েছেন?", "options": { "a": "ইবরাহিম (আঃ)", "b": "নুহ (আঃ)", "c": "হুদ (আঃ)", "d": "শুয়াইব (আঃ)" }, "answer": "b" },
-      { "text": "বদরের যুদ্ধে মুসলমানদের সংখ্যা কত ছিল?", "options": { "a": "1000", "b": "313", "c": "700", "d": "1500" }, "answer": "b" },
-      { "text": "নমাজের কয়টি ওয়াক্ত আছে?", "options": { "a": "5", "b": "6", "c": "4", "d": "3" }, "answer": "a" },
-      { "text": "রামাদান মাসে কি করা হয়?", "options": { "a": "রোজা", "b": "জাকাত", "c": "হজ", "d": "নমাজ" }, "answer": "a" },
-      { "text": "হজ কতবার ফরজ?", "options": { "a": "১ বার", "b": "২ বার", "c": "৩ বার", "d": "৪ বার" }, "answer": "a" }
-    ]
-  },
-  {
-    "id": "5",
-    "title": "Geography Quiz",
-    "questions": [
-      { "text": "বিশ্বের সবচেয়ে বড় মরুভূমি কোনটি?", "options": { "a": "সাহারা", "b": "গোবি", "c": "কালাহারি", "d": "আর্কটিক" }, "answer": "a" },
-      { "text": "পৃথিবীর সবচেয়ে দীর্ঘ নদী কোনটি?", "options": { "a": "Amazon", "b": "Nile", "c": "Yangtze", "d": "Mississippi" }, "answer": "b" },
-      { "text": "এভারেস্ট পর্বতের উচ্চতা কত?", "options": { "a": "8848 মিটার", "b": "8000 মিটার", "c": "8900 মিটার", "d": "8790 মিটার" }, "answer": "a" },
-      { "text": "বাংলাদেশে কয়টি মৌসুমি ঋতু আছে?", "options": { "a": "4", "b": "6", "c": "5", "d": "3" }, "answer": "b" },
-      { "text": "পৃথিবীর কেন্দ্র প্রধানত কোন ধাতু দিয়ে গঠিত?", "options": { "a": "Iron", "b": "Nickel", "c": "Copper", "d": "Both Iron & Nickel" }, "answer": "d" },
-      { "text": "বিশ্বের সবচেয়ে বড় মহাসাগর কোনটি?", "options": { "a": "Pacific", "b": "Atlantic", "c": "Indian", "d": "Arctic" }, "answer": "a" },
-      { "text": "স্বরাষ্ট্র দেশ কোনটি?", "options": { "a": "ভুটান", "b": "নেপাল", "c": "লেসোথো", "d": "মালদিভস" }, "answer": "a" },
-      { "text": "পৃথিবীর সবচেয়ে বড় দ্বীপ কোনটি?", "options": { "a": "Greenland", "b": "Madagascar", "c": "Borneo", "d": "Sumatra" }, "answer": "a" }
-    ]
-  },
-  {
-    "id": "6",
-    "title": "Literature Quiz",
-    "questions": [
-      { "text": "‘গীতাঞ্জলি’ কার লেখা?", "options": { "a": "কাজী নজরুল ইসলাম", "b": "রবীন্দ্রনাথ ঠাকুর", "c": "সেলিনা হোসেন", "d": "সেলিম আল দীন" }, "answer": "b" },
-      { "text": "শেকসপিয়ারের কোন নাটকটি ট্র্যাজেডি?", "options": { "a": "Hamlet", "b": "As You Like It", "c": "Merchant of Venice", "d": "Twelfth Night" }, "answer": "a" },
-      { "text": "বাংলা সাহিত্যে প্রথম উপন্যাস কোনটি?", "options": { "a": "আলালের ঘরের দুলাল", "b": "চোখের বালি", "c": "পদ্মা নদীর মাঝি", "d": "শ্রীকান্ত" }, "answer": "a" },
-      { "text": "রোমিও ও জুলিয়েট কার লেখা?", "options": { "a": "Milton", "b": "Shakespeare", "c": "Wordsworth", "d": "Keats" }, "answer": "b" },
-      { "text": "‘বিদ্রোহী’ কবিতার রচয়িতা কে?", "options": { "a": "রবীন্দ্রনাথ ঠাকুর", "b": "কাজী নজরুল ইসলাম", "c": "জসীম উদ্দিন", "d": "মাইকেল মধুসূদন" }, "answer": "b" },
-      { "text": "রবীন্দ্রনাথ ঠাকুরের 'চোখের বালি' কোন ধরনের সাহিত্য?", "options": { "a": "উপন্যাস", "b": "কবিতা", "c": "নাটক", "d": "গল্প" }, "answer": "a" },
-      { "text": "শেক্সপিয়ারের 'Macbeth' কোন ধরনের নাটক?", "options": { "a": "Tragedy", "b": "Comedy", "c": "History", "d": "Romance" }, "answer": "a" },
-      { "text": "‘হেরোডোটাস’ কে ছিলেন?", "options": { "a": "ইতিহাসবিদ", "b": "গণিতজ্ঞ", "c": "দার্শনিক", "d": "সাহিত্যিক" }, "answer": "a" }
-    ]
-  }
-]
+{
+  "quiz": [
+    {
+      "question": "অর্থনীতি বলতে কী বোঝায়?",
+      "options": ["টাকা-পয়সা", "সীমিত সম্পদের সর্বোচ্চ ব্যবহার", "সরকারি নিয়ম", "ব্যবসা-বাণিজ্য"],
+      "answer": "সীমিত সম্পদের সর্বোচ্চ ব্যবহার"
+    },
+    {
+      "question": "ভারতের রাজধানী কোথায়?",
+      "options": ["মুম্বাই", "কলকাতা", "নয়াদিল্লি", "চেন্নাই"],
+      "answer": "নয়াদিল্লি"
+    },
+    {
+      "question": "বাংলাদেশের স্বাধীনতার ঘোষণা কে দেন?",
+      "options": ["জিয়াউর রহমান", "বঙ্গবন্ধু শেখ মুজিব", "তাজউদ্দিন আহমদ", "করিমউদ্দিন"],
+      "answer": "বঙ্গবন্ধু শেখ মুজিব"
+    },
+    {
+      "question": "মানবদেহে রক্তশূন্যতার প্রধান কারণ কী?",
+      "options": ["ভিটামিন A", "আয়রন ঘাটতি", "সোডিয়াম কম", "পানি কম"],
+      "answer": "আয়রন ঘাটতি"
+    },
+    {
+      "question": "সূর্যের সবচেয়ে নিকটবর্তী গ্রহ কোনটি?",
+      "options": ["পৃথিবী", "মঙ্গল", "শুক্র", "বুধ"],
+      "answer": "বুধ"
+    },
+    {
+      "question": "CPU এর পূর্ণরূপ কী?",
+      "options": ["Central Process Unit", "Central Processing Unit", "Control Program Unit", "Core Performance Unit"],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "question": "বাংলাদেশের প্রথম পাঁচ বছর মেয়াদী পরিকল্পনা কবে শুরু হয়?",
+      "options": ["১৯৭৩", "১৯৭৫", "১৯৮০", "১৯৬৫"],
+      "answer": "১৯৭৩"
+    },
+    {
+      "question": "পানির রাসায়নিক সংকেত কী?",
+      "options": ["O2", "CO2", "H2O", "HO2"],
+      "answer": "H2O"
+    },
+    {
+      "question": "পৃথিবীর সবচেয়ে বড় মহাসাগর কোনটি?",
+      "options": ["আটলান্টিক", "ইন্ডিয়ান", "আর্কটিক", "প্রশান্ত"],
+      "answer": "প্রশান্ত"
+    },
+    {
+      "question": "মানবদেহের সবচেয়ে বড় অঙ্গ কোনটি?",
+      "options": ["হৃদপিণ্ড", "ত্বক", "যকৃত", "মস্তিষ্ক"],
+      "answer": "ত্বক"
+    },
+    {
+      "question": "জাভাস্ক্রিপ্ট কোন ধরনের ভাষা?",
+      "options": ["Markup Language", "Programming Language", "Database Language", "Design Language"],
+      "answer": "Programming Language"
+    },
+    {
+      "question": "বাংলাদেশের সবচেয়ে বড় জেলা কোনটি?",
+      "options": ["দিনাজপুর", "রংপুর", "কক্সবাজার", "সিলেট"],
+      "answer": "কক্সবাজার"
+    },
+    {
+      "question": "‘গীতাঞ্জলি’ কার লেখা?",
+      "options": ["কাজী নজরুল", "রবীন্দ্রনাথ ঠাকুর", "জসীম উদ্দিন", "বঙ্কিমচন্দ্র"],
+      "answer": "রবীন্দ্রনাথ ঠাকুর"
+    },
+    {
+      "question": "Who invented the light bulb?",
+      "options": ["Newton", "Thomas Edison", "Galileo", "Einstein"],
+      "answer": "Thomas Edison"
+    },
+    {
+      "question": "Which is the largest planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "বাংলাদেশ কবে স্বাধীনতা অর্জন করে?",
+      "options": ["১৯৭১", "১৯৬৯", "১৯৫২", "১৯৮০"],
+      "answer": "১৯৭১"
+    },
+    {
+      "question": "পদ্মা সেতুর দৈর্ঘ্য কত?",
+           "options": ["৬১৫০ মিটার", "৫৫০০ মিটার", "৬০০০ মিটার", "৭০০০ মিটার"],
+      "answer": "৬১৫০ মিটার"
+    },
+    {
+      "question": "HTML এর পূর্ণ রূপ কী?",
+      "options": ["Hyper Text Makeup Language", "Hyper Transfer Markup Language", "Hyper Text Markup Language", "High Tech Markup Language"],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "বিজ্ঞানকে কে 'Mother of All Sciences' বলে?",
+      "options": ["Math", "Physics", "Biology", "Chemistry"],
+      "answer": "Math"
+    },
+    {
+      "question": "মানবদেহে কত জোড়া পাঁজর রয়েছে?",
+      "options": ["১০", "১১", "১২", "১৪"],
+      "answer": "১২"
+    },
+    {
+      "question": "বিশ্বের দীর্ঘতম নদী কোনটি?",
+      "options": ["নাইল", "আমাজন", "ইয়াংসিকিয়াং", "মিসিসিপি"],
+      "answer": "নাইল"
+    },
+    {
+      "question": "World War II ended in which year?",
+      "options": ["1918", "1945", "1950", "1960"],
+      "answer": "1945"
+    },
+    {
+      "question": "স্বাধীন বাংলাদেশের প্রথম প্রধানমন্ত্রী কে?",
+      "options": ["বঙ্গবন্ধু", "তাজউদ্দিন আহমদ", "সায়েম", "এরশাদ"],
+      "answer": "তাজউদ্দিন আহমদ"
+    },
+    {
+      "question": "মানবদেহে রক্তের রং লাল কেন?",
+      "options": ["ক্যালসিয়াম", "হিমোগ্লোবিন", "অক্সিজেন", "বর্জ্য পদার্থ"],
+      "answer": "হিমোগ্লোবিন"
+    },
+    {
+      "question": "মহাকর্ষ সূত্র কে আবিষ্কার করেন?",
+      "options": ["আইনস্টাইন", "নিউটন", "টেসলা", "গ্যালিলিও"],
+      "answer": "নিউটন"
+    },
+    {
+      "question": "Which language has the most native speakers?",
+      "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+      "answer": "Mandarin Chinese"
+    },
+    {
+      "question": "বাংলাদেশের জাতীয় ফুল কোনটি?",
+      "options": ["শাপলা", "গোলাপ", "জবাফুল", "চন্দ্রমল্লিকা"],
+      "answer": "শাপলা"
+    },
+    {
+      "question": "Windows OS কে তৈরি করেছে?",
+      "options": ["Google", "IBM", "Microsoft", "Apple"],
+      "answer": "Microsoft"
+    },
+    {
+      "question": "বিশ্বের উচ্চতম পর্বত কোনটি?",
+      "options": ["কে-টু", "এভারেস্ট", "কাঞ্চনজঙ্ঘা", "আন্ডিজ"],
+      "answer": "এভারেস্ট"
+    },
+    {
+      "question": "O+ কোন গ্রুপ?",
+      "options": ["Blood Group", "Vitamin", "Gas", "Metal"],
+      "answer": "Blood Group"
+    },
+    {
+      "question": "Which country invented Pizza?",
+      "options": ["USA", "France", "Italy", "Germany"],
+      "answer": "Italy"
+    },
+    {
+      "question": "ধর্মীয় গ্রন্থ 'গীতা' কোন ধর্মের?",
+      "options": ["ইসলাম", "হিন্দু", "বৌদ্ধ", "খ্রিস্টান"],
+      "answer": "হিন্দু"
+    },
+    {
+      "question": "Photosynthesis occurs in which part of the plant?",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "answer": "Leaf"
+    },
+    {
+      "question": "বিশ্বের সবচেয়ে ছোট দেশ কোনটি?",
+      "options": ["নেপাল", "ভুটান", "ভ্যাটিকান সিটি", "কাতার"],
+      "answer": "ভ্যাটিকান সিটি"
+    }
+  ]
+}
