@@ -1,36 +1,24 @@
-# Quiz-2 API 🎮
+# 🎯 Quiz API
 
-one simple, ready-to-use quiz API Goat Bot / Node.js of
-for Mixed **Easy + Hard** questions, multiple categories।  
-
----
+A simple, fast, and easy-to-use **Quiz API** built for developers who want ready-made quiz data for their projects.
 
 ---
 
-## 📝 Features
+## ✨ Features
 
-- ✅ 6 categories: History, Science, Math, Islamic, Geography, Literature  
-- ✅ Total 48 questions (A/B/C/D options)  
-- ✅ Mixed difficulty: Easy + Hard  
-- ✅ Goat Bot V2 compatible  
-- ✅ Direct JSON fetch for quiz commands  
-- ✅ Automatic random quiz selection  
+- 📚 **50 Quiz Questions**
+- 🌍 Language: **Bangla**
+- 🧠 MCQ based quizzes
+- ⚡ Lightweight & fast
+- 🔥 Perfect for bots, apps & websites
 
 ---
 
-## 📂 JSON Structure
+## 📂 Quiz Format (JSON)
 
 ```json
-[
-  {
-    "id": "1",
-    "title": "History Quiz",
-    "questions": [
-      {
-        "text": "Question text here",
-        "options": { "a": "Option A", "b": "Option B", "c": "Option C", "d": "Option D" },
-        "answer": "a"
-      }
-    ]
-  }
-]
+{
+  "question": "বাংলাদেশের রাজধানী কোনটি?",
+  "options": ["ঢাকা", "চট্টগ্রাম", "খুলনা", "রাজশাহী"],
+  "answer": "ঢাকা"
+}
